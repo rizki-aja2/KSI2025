@@ -3,19 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World Bootstrap + CSS</title>
-    
+    <title>CI/CD Test Page</title>
+
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
-    
+
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <div class="container text-center mt-5">
-        <h1 class="text-primary">Hello World</h1>
-        <p class="lead">contoh web sederhana</p>
-        <button class="btn btn-success">Klik Aku!</button>
+<body class="bg-light">
+
+    <div class="container text-center mt-5 p-4 bg-white shadow rounded">
+        <h1 class="text-primary fw-bold">Hello World!</h1>
+        <p class="lead text-secondary">Website ini berhasil di-deploy dari GitHub → Jenkins → VPS 🎉</p>
+        
+        <button class="btn btn-success mt-3">Klik Aku!</button>
+
+        <hr class="my-4">
+
+        <h5 class="text-muted">Anggota Kelompok:</h5>
+        <ul class="list-unstyled">
+            <li>1. Rizki</li>
+            <li>2. Desri Nur Fadilah</li>
+            <li>3. shanisa al mawadah</li>
+            <li>4. ruwanda susan alika</li>
+        </ul>
+
+        <p class="text-info mt-4">Edit file ini → push ke GitHub → Website otomatis berubah</p>
     </div>
 
+    <!-- Bootstrap JS -->
     <script src="bootstrap/popper.min.js"></script>
     <script src="bootstrap/bootstrap.min.js"></script>
 </body>
